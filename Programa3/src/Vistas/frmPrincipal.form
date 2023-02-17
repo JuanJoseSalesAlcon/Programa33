@@ -36,7 +36,9 @@
                       <Component id="btnIngresoEquipo" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
+              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <Component id="bdjksa1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -46,7 +48,10 @@
               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
               <Component id="btnIngresoEquipo" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnRegistroPropietarios1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnRegistroPropietarios1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bdjksa1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="btnRegistropro" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -85,6 +90,11 @@
     <Component class="javax.swing.JLabel" name="btnRegistroPropietarios1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ingreso Equipo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bdjksa1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registro de Propietarios"/>
       </Properties>
     </Component>
   </SubComponents>

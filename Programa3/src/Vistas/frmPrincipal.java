@@ -30,6 +30,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         bdjksa = new javax.swing.JLabel();
         btnRegistropro = new javax.swing.JButton();
         btnRegistroPropietarios1 = new javax.swing.JLabel();
+        bdjksa1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -40,6 +41,8 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnRegistropro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/records_notes_journal_edited_9479.png"))); // NOI18N
 
         btnRegistroPropietarios1.setText("Ingreso Equipo");
+
+        bdjksa1.setText("Registro de Propietarios");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -55,7 +58,9 @@ public class frmPrincipal extends javax.swing.JFrame {
                             .addGap(10, 10, 10)
                             .addComponent(btnRegistroPropietarios1))
                         .addComponent(btnIngresoEquipo)))
-                .addGap(202, 202, 202))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
+                .addComponent(bdjksa1)
+                .addGap(23, 23, 23))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -63,7 +68,9 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGap(31, 31, 31)
                 .addComponent(btnIngresoEquipo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnRegistroPropietarios1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnRegistroPropietarios1)
+                    .addComponent(bdjksa1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnRegistropro)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -111,6 +118,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel bdjksa;
+    private javax.swing.JLabel bdjksa1;
     public javax.swing.JButton btnIngresoEquipo;
     private javax.swing.JLabel btnRegistroPropietarios1;
     public javax.swing.JButton btnRegistropro;
