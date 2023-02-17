@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author umg
  */
 public class ingresoequipoModel {
-    public ArrayList<Usuarios>ListaIngresos = new ArrayList<Usuarios>();
+    public ArrayList<IngresoEquipo>ListaIngresos = new ArrayList<IngresoEquipo>();
     
     
 public void AgregarUsuarios(String marca, String modelo, String tipocomputadora, String problema)
@@ -21,10 +21,10 @@ public void AgregarUsuarios(String marca, String modelo, String tipocomputadora,
     this.ListaIngresos.add(NuevoIngresoEquipo);
 }
 
-public ArrayList ListarUsuarios()
+public ArrayList ListarIngresos()
 {
     return ListaIngresos;
 }
 
 }
-}
+
