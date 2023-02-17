@@ -31,6 +31,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnRegistropro = new javax.swing.JButton();
         btnRegistroPropietarios1 = new javax.swing.JLabel();
         bdjksa1 = new javax.swing.JLabel();
+        btnEnviar = new javax.swing.JButton();
+        btnEntregar = new javax.swing.JButton();
+        bdjksa2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,40 +45,68 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         btnRegistroPropietarios1.setText("Ingreso Equipo");
 
-        bdjksa1.setText("Registro de Propietarios");
+        bdjksa1.setText("ENTREGAR EQUIPO");
+
+        btnEnviar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/caja-de-herramientas.png"))); // NOI18N
+
+        btnEntregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/paquete-entregado.png"))); // NOI18N
+
+        bdjksa2.setText("ENVIAR EQUIPO");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(bdjksa)
-                    .addComponent(btnRegistropro, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(10, 10, 10)
-                            .addComponent(btnRegistroPropietarios1))
-                        .addComponent(btnIngresoEquipo)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
-                .addComponent(bdjksa1)
-                .addGap(23, 23, 23))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(38, 38, 38)
+                        .addComponent(btnRegistropro))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(29, 29, 29)
+                        .addComponent(bdjksa))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(38, 38, 38)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnRegistroPropietarios1)
+                            .addComponent(btnIngresoEquipo))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnEntregar)
+                    .addComponent(btnEnviar)
+                    .addComponent(bdjksa1))
+                .addGap(19, 19, 19))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addContainerGap(258, Short.MAX_VALUE)
+                    .addComponent(bdjksa2)
+                    .addGap(27, 27, 27)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(31, 31, 31)
-                .addComponent(btnIngresoEquipo)
+                .addGap(39, 39, 39)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnIngresoEquipo)
+                    .addComponent(btnEnviar))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnRegistroPropietarios1)
-                    .addComponent(bdjksa1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnRegistropro)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(bdjksa)
-                .addContainerGap(71, Short.MAX_VALUE))
+                .addComponent(btnRegistroPropietarios1)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(btnRegistropro)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(bdjksa))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(btnEntregar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(bdjksa1)))
+                .addContainerGap(56, Short.MAX_VALUE))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(128, 128, 128)
+                    .addComponent(bdjksa2)
+                    .addContainerGap(157, Short.MAX_VALUE)))
         );
 
         pack();
@@ -119,6 +150,9 @@ public class frmPrincipal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel bdjksa;
     private javax.swing.JLabel bdjksa1;
+    private javax.swing.JLabel bdjksa2;
+    public javax.swing.JButton btnEntregar;
+    public javax.swing.JButton btnEnviar;
     public javax.swing.JButton btnIngresoEquipo;
     private javax.swing.JLabel btnRegistroPropietarios1;
     public javax.swing.JButton btnRegistropro;
