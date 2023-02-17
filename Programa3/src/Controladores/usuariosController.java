@@ -30,7 +30,7 @@ public DefaultTableModel TablaUsuarios = new DefaultTableModel();
         this.ModeloUsuarios = ModeloUsuarios;
         
         //PONER A LA ESCUCHA LOS BOTONES CORRESPONDIENTES
-        this.VistaPrincipal.btnAgregar.addActionListener(this);
+        this.VistaPrincipal.btnIngresoEquipo.addActionListener(this);
         
         //LEVANTAR LA VISTA PRINCIPAL
         this.VistaPrincipal.setExtendedState(frmPrincipal.MAXIMIZED_BOTH);
@@ -46,7 +46,7 @@ public DefaultTableModel TablaUsuarios = new DefaultTableModel();
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource()==this.VistaPrincipal.btnAgregar)
+        if(e.getSource()==this.VistaPrincipal.btnIngresoEquipo)
         {
             //PONER A LA ESCUCHA LOS BOTONES DE LA VISTA USUARIOS
             this.VistaUsuarios.btnInsertar.addActionListener(this);

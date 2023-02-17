@@ -26,40 +26,49 @@ public class frmPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnAgregar = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        btnIngresoEquipo = new javax.swing.JButton();
+        bdjksa = new javax.swing.JLabel();
         btnRegistropro = new javax.swing.JButton();
+        btnRegistroPropietarios1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnAgregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/umgUsuarios.png"))); // NOI18N
+        btnIngresoEquipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/computer_laptop_device_equipment_technology_screen_desktop_business_icon_211087.png"))); // NOI18N
 
-        jLabel1.setText("Agregar Usuarios");
+        bdjksa.setText("Registro de Propietarios");
 
-        btnRegistropro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/umgUsuarios.png"))); // NOI18N
+        btnRegistropro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/records_notes_journal_edited_9479.png"))); // NOI18N
+
+        btnRegistroPropietarios1.setText("Ingreso Equipo");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(161, 161, 161)
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnRegistropro)
-                    .addComponent(jLabel1)
-                    .addComponent(btnAgregar))
-                .addContainerGap(148, Short.MAX_VALUE))
+                    .addComponent(bdjksa)
+                    .addComponent(btnRegistropro, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(10, 10, 10)
+                            .addComponent(btnRegistroPropietarios1))
+                        .addComponent(btnIngresoEquipo)))
+                .addGap(202, 202, 202))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(83, 83, 83)
-                .addComponent(btnAgregar)
+                .addGap(31, 31, 31)
+                .addComponent(btnIngresoEquipo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel1)
-                .addGap(28, 28, 28)
+                .addComponent(btnRegistroPropietarios1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnRegistropro)
-                .addContainerGap(58, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(bdjksa)
+                .addContainerGap(71, Short.MAX_VALUE))
         );
 
         pack();
@@ -101,8 +110,9 @@ public class frmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton btnAgregar;
+    private javax.swing.JLabel bdjksa;
+    public javax.swing.JButton btnIngresoEquipo;
+    private javax.swing.JLabel btnRegistroPropietarios1;
     public javax.swing.JButton btnRegistropro;
-    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
