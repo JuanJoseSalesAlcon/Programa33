@@ -8,12 +8,12 @@ package Vistas;
  *
  * @author USUARIO 2
  */
-public class entregaEquipos extends javax.swing.JDialog {
+public class frmEnviarEquipo extends javax.swing.JDialog {
 
     /**
      * Creates new form frmUsuarios
      */
-    public entregaEquipos(java.awt.Frame parent, boolean modal) {
+    public frmEnviarEquipo(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }
@@ -43,11 +43,11 @@ public class entregaEquipos extends javax.swing.JDialog {
 
         codEquipo.setText("Codigo Equipo");
 
-        jLabel2.setText("Nombre de la persona que recibe");
+        jLabel2.setText("Descripcion de la reparacion");
 
-        jLabel3.setText("Fecha de entrega");
+        jLabel3.setText("Tecnico Aisgnado");
 
-        btnInsertar.setText("Entregar Equipo");
+        btnInsertar.setText("Registrar Reparacion");
 
         jtUsuarios.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -60,7 +60,7 @@ public class entregaEquipos extends javax.swing.JDialog {
         ));
         jScrollPane1.setViewportView(jtUsuarios);
 
-        jLabel4.setText("Descripcion de la solucion");
+        jLabel4.setText("Fecha de ingreso");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -138,13 +138,13 @@ public class entregaEquipos extends javax.swing.JDialog {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(entregaEquipos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmEnviarEquipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(entregaEquipos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmEnviarEquipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(entregaEquipos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmEnviarEquipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(entregaEquipos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmEnviarEquipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -154,7 +154,7 @@ public class entregaEquipos extends javax.swing.JDialog {
         /* Create and display the dialog */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                entregaEquipos dialog = new entregaEquipos(new javax.swing.JFrame(), true);
+                frmEnviarEquipo dialog = new frmEnviarEquipo(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {
