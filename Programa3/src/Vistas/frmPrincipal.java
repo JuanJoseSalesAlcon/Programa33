@@ -28,12 +28,15 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         btnAgregar = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        btnRegistropro = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         btnAgregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/umgUsuarios.png"))); // NOI18N
 
         jLabel1.setText("Agregar Usuarios");
+
+        btnRegistropro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/umgUsuarios.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -42,6 +45,7 @@ public class frmPrincipal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(161, 161, 161)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnRegistropro)
                     .addComponent(jLabel1)
                     .addComponent(btnAgregar))
                 .addContainerGap(148, Short.MAX_VALUE))
@@ -53,7 +57,9 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addComponent(btnAgregar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel1)
-                .addContainerGap(141, Short.MAX_VALUE))
+                .addGap(28, 28, 28)
+                .addComponent(btnRegistropro)
+                .addContainerGap(58, Short.MAX_VALUE))
         );
 
         pack();
@@ -96,6 +102,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnAgregar;
+    public javax.swing.JButton btnRegistropro;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
