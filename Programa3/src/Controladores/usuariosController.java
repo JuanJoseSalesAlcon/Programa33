@@ -9,6 +9,8 @@ import Vistas.frmIngresoEquipo;
 import Vistas.frmIngresoPropietarios;
 import Vistas.frmPrincipal;
 import Vistas.frmUsuarios;
+import Vistas.frmEntregaEquipos;
+import Vistas.frmEnviarEquipo;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.table.DefaultTableModel;
