@@ -39,7 +39,7 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel5" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="txtTelefono1" min="-2" pref="165" max="-2" attributes="0"/>
+                              <Component id="txtProblemaPresentado" min="-2" pref="165" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
@@ -59,7 +59,7 @@
                           </Group>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnInsertar" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnIngresarPC" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
@@ -80,7 +80,7 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtModelo" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnInsertar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnIngresarPC" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -89,7 +89,7 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtTelefono1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtProblemaPresentado" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
@@ -130,9 +130,9 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btnInsertar">
+    <Component class="javax.swing.JButton" name="btnIngresarPC">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Insertar Usuarios"/>
+        <Property name="text" type="java.lang.String" value="Ingresar PC"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -145,7 +145,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTable" name="jtUsuarios">
+        <Component class="javax.swing.JTable" name="jtIngresoEquipo">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="0" rowCount="2"/>
@@ -162,7 +162,7 @@
         <Property name="text" type="java.lang.String" value="INGRESO DE COMPUTADORAS A REPARACION"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtTelefono1">
+    <Component class="javax.swing.JTextField" name="txtProblemaPresentado">
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>

@@ -5,6 +5,8 @@
 package Controladores;
 
 import Modelos.usuariosModel;
+import Vistas.frmIngresoEquipo;
+import Vistas.frmIngresoPropietarios;
 import Vistas.frmPrincipal;
 import Vistas.frmUsuarios;
 import java.awt.event.ActionEvent;
@@ -19,6 +21,8 @@ public class usuariosController implements ActionListener{
 frmPrincipal VistaPrincipal;
 frmUsuarios VistaUsuarios;
 usuariosModel ModeloUsuarios;
+frmIngresoEquipo IngresoEquipos;
+frmIngresoPropietarios IngresoPropietarios;
 public DefaultTableModel TablaUsuarios = new DefaultTableModel();
     
 //LEVANTAR DE FORMA AUTOMATICA EL FORMULARIO PRINCIPAL
