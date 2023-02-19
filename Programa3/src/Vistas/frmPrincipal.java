@@ -28,12 +28,13 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         btnIngresoEquipo = new javax.swing.JButton();
         bdjksa = new javax.swing.JLabel();
-        btnRegistropro = new javax.swing.JButton();
+        btnRegistroPropietarios = new javax.swing.JButton();
         btnRegistroPropietarios1 = new javax.swing.JLabel();
         bdjksa1 = new javax.swing.JLabel();
         btnEnviar = new javax.swing.JButton();
         btnEntregar = new javax.swing.JButton();
         bdjksa2 = new javax.swing.JLabel();
+        btnPruebaxd = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,7 +42,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         bdjksa.setText("Registro de Propietarios");
 
-        btnRegistropro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/records_notes_journal_edited_9479.png"))); // NOI18N
+        btnRegistroPropietarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/records_notes_journal_edited_9479.png"))); // NOI18N
 
         btnRegistroPropietarios1.setText("Ingreso Equipo");
 
@@ -61,7 +62,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(38, 38, 38)
-                        .addComponent(btnRegistropro))
+                        .addComponent(btnRegistroPropietarios))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(29, 29, 29)
                         .addComponent(bdjksa))
@@ -70,12 +71,16 @@ public class frmPrincipal extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnRegistroPropietarios1)
                             .addComponent(btnIngresoEquipo))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 95, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnEntregar)
                     .addComponent(btnEnviar)
                     .addComponent(bdjksa1))
                 .addGap(19, 19, 19))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(149, 149, 149)
+                .addComponent(btnPruebaxd)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                     .addContainerGap(258, Short.MAX_VALUE)
@@ -94,14 +99,16 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnRegistropro)
+                        .addComponent(btnRegistroPropietarios)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(bdjksa))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnEntregar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(bdjksa1)))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(btnPruebaxd)
+                .addContainerGap())
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(128, 128, 128)
@@ -154,7 +161,8 @@ public class frmPrincipal extends javax.swing.JFrame {
     public javax.swing.JButton btnEntregar;
     public javax.swing.JButton btnEnviar;
     public javax.swing.JButton btnIngresoEquipo;
+    public javax.swing.JButton btnPruebaxd;
+    public javax.swing.JButton btnRegistroPropietarios;
     private javax.swing.JLabel btnRegistroPropietarios1;
-    public javax.swing.JButton btnRegistropro;
     // End of variables declaration//GEN-END:variables
 }

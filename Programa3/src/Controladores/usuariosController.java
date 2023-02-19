@@ -36,7 +36,7 @@ public DefaultTableModel TablaUsuarios = new DefaultTableModel();
         this.ModeloUsuarios = ModeloUsuarios;
         
         //PONER A LA ESCUCHA LOS BOTONES CORRESPONDIENTES
-        this.VistaPrincipal.btnIngresoEquipo.addActionListener(this);
+        this.VistaPrincipal.btnPruebaxd.addActionListener(this);
         
         //LEVANTAR LA VISTA PRINCIPAL
         this.VistaPrincipal.setExtendedState(frmPrincipal.MAXIMIZED_BOTH);

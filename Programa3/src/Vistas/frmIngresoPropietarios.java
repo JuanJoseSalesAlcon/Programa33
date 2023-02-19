@@ -35,7 +35,7 @@ public class frmIngresoPropietarios extends javax.swing.JDialog {
         txtTelefono = new javax.swing.JTextField();
         btnIngresarPropietario = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jtUsuarios = new javax.swing.JTable();
+        jtPropietarios = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -47,7 +47,7 @@ public class frmIngresoPropietarios extends javax.swing.JDialog {
 
         btnIngresarPropietario.setText("Ingresar Propietario");
 
-        jtUsuarios.setModel(new javax.swing.table.DefaultTableModel(
+        jtPropietarios.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {},
                 {}
@@ -56,7 +56,7 @@ public class frmIngresoPropietarios extends javax.swing.JDialog {
 
             }
         ));
-        jScrollPane1.setViewportView(jtUsuarios);
+        jScrollPane1.setViewportView(jtPropietarios);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -156,7 +156,7 @@ public class frmIngresoPropietarios extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
-    public javax.swing.JTable jtUsuarios;
+    public javax.swing.JTable jtPropietarios;
     public javax.swing.JTextField txtApellidos;
     public javax.swing.JTextField txtNombre;
     public javax.swing.JTextField txtTelefono;
