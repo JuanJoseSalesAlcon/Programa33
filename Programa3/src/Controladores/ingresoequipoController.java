@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Controladores;
 
 import Modelos.ingresoequipoModel;
@@ -10,10 +6,7 @@ import Vistas.frmPrincipal;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.table.DefaultTableModel;
-/**
- *
- * @author USUARIO
- */
+
 public class ingresoequipoController implements ActionListener{
     frmPrincipal VistaPrincipal;
     frmIngresoEquipo VistaIngresoEquipo;

@@ -1,46 +1,49 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Modelos;
-
-/**
- *
- * @author USUARIO 2
- */
 public class Enviar {
-    String apellidos;
-    String nombre;
-    String telefono;
+    String codigo;
+    String descripcion;
+    String tecnico;
+    String fecha;
 
-    public Enviar(String apellidos, String nombre, String telefono) {
-        this.apellidos = apellidos;
-        this.nombre = nombre;
-        this.telefono = telefono;
+    public Enviar(String codigo, String descripcion, String tecnico) {
+        this.codigo = codigo;
+        this.descripcion = descripcion;
+        this.tecnico = tecnico;
     }
 
-    public String getApellidos() {
-        return apellidos;
+    Enviar(String codigo, String descripcion, String tecnico, String fecha) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public String getCodigo() {
+        return codigo;
     }
 
-    public String getNombre() {
-        return nombre;
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public String getTecnico() {
+        return tecnico;
     }
-     
+
+    public void setTecnico(String tecnico) {
+        this.tecnico = tecnico;
+    }
+     public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    } 
+
 }

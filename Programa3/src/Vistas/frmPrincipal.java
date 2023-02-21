@@ -31,7 +31,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnRegistroPropietarios = new javax.swing.JButton();
         btnRegistroPropietarios1 = new javax.swing.JLabel();
         bdjksa1 = new javax.swing.JLabel();
-        btnEnviar = new javax.swing.JButton();
+        btnEnviarequipo = new javax.swing.JButton();
         btnEntregar = new javax.swing.JButton();
         bdjksa2 = new javax.swing.JLabel();
         btnPruebaxd = new javax.swing.JButton();
@@ -48,7 +48,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         bdjksa1.setText("ENTREGAR EQUIPO");
 
-        btnEnviar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/caja-de-herramientas.png"))); // NOI18N
+        btnEnviarequipo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/caja-de-herramientas.png"))); // NOI18N
 
         btnEntregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/paquete-entregado.png"))); // NOI18N
 
@@ -74,7 +74,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 95, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnEntregar)
-                    .addComponent(btnEnviar)
+                    .addComponent(btnEnviarequipo)
                     .addComponent(bdjksa1))
                 .addGap(19, 19, 19))
             .addGroup(layout.createSequentialGroup()
@@ -93,7 +93,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGap(39, 39, 39)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(btnIngresoEquipo)
-                    .addComponent(btnEnviar))
+                    .addComponent(btnEnviarequipo))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnRegistroPropietarios1)
                 .addGap(18, 18, 18)
@@ -159,7 +159,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel bdjksa1;
     private javax.swing.JLabel bdjksa2;
     public javax.swing.JButton btnEntregar;
-    public javax.swing.JButton btnEnviar;
+    public javax.swing.JButton btnEnviarequipo;
     public javax.swing.JButton btnIngresoEquipo;
     public javax.swing.JButton btnPruebaxd;
     public javax.swing.JButton btnRegistroPropietarios;

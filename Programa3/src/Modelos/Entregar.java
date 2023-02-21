@@ -1,46 +1,47 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Modelos;
-
-/**
- *
- * @author USUARIO 2
- */
 public class Entregar {
-    String apellidos;
-    String nombre;
-    String telefono;
+    String codigoEquipo;
+    String nombrePersona;
+    String fechaEntrega;
+    String descripcionProblema;
 
-    public Entregar(String apellidos, String nombre, String telefono) {
-        this.apellidos = apellidos;
-        this.nombre = nombre;
-        this.telefono = telefono;
+    public Entregar(String codigoEquipo, String nombrePersona, String fechaEntrega, String descripcionProblema) {
+        this.codigoEquipo = codigoEquipo;
+        this.nombrePersona = nombrePersona;
+        this.fechaEntrega = fechaEntrega;
+        this.descripcionProblema = descripcionProblema;
     }
 
-    public String getApellidos() {
-        return apellidos;
+    public String getCodigoEquipo() {
+        return codigoEquipo;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public void setCodigoEquipo(String codigoEquipo) {
+        this.codigoEquipo = codigoEquipo;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombrePersona() {
+        return nombrePersona;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombrePersona(String nombrePersona) {
+        this.nombrePersona = nombrePersona;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public String getFechaEntrega() {
+    
+         return fechaEntrega;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public void setDescripcionProblema(String descripcionProblema) {
+        this.descripcionProblema = descripcionProblema;
+    }
+    public String getDescripcionProblema() {
+    
+         return descripcionProblema;
+    }
+    public void setFechaEntrega(String descripcionProblema) {
+        this.descripcionProblema = descripcionProblema;
     }
      
 }

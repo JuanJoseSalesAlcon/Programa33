@@ -11,18 +11,22 @@ import java.util.ArrayList;
  * @author USUARIO 2
  */
 public class enviarModel {      
-public ArrayList<Usuarios>ListaUsuarios = new ArrayList<Usuarios>();
+public ArrayList<Enviar>EnviarEquipo = new ArrayList<Enviar>();
     
     
-public void AgregarUsuarios(String apellidos, String nombre, String telefono)
+public void EnviarEquipo(String codigo, String descripcion, String tecnico, String fecha)
 {
-    Usuarios NuevoUsuario = new Usuarios(apellidos, nombre, telefono);
-    this.ListaUsuarios.add(NuevoUsuario);
+    Enviar nuevoEnviar = new Enviar(codigo, descripcion, tecnico, fecha);
+    this.EnviarEquipo.add(nuevoEnviar);
 }
 
-public ArrayList ListarUsuarios()
+public ArrayList ListarEnvios()
 {
-    return ListaUsuarios;
+    return EnviarEquipo;
 }
+
+    public void EnviarEquipo(String text, String text0, String text1, String text2, String text3) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 }

@@ -44,7 +44,7 @@
               <EmptySpace pref="95" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="btnEntregar" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnEnviar" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnEnviarequipo" min="-2" max="-2" attributes="0"/>
                   <Component id="bdjksa1" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
@@ -69,7 +69,7 @@
               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="btnIngresoEquipo" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnEnviar" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnEnviarequipo" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="btnRegistroPropietarios1" min="-2" max="-2" attributes="0"/>
@@ -136,7 +136,7 @@
         <Property name="text" type="java.lang.String" value="ENTREGAR EQUIPO"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnEnviar">
+    <Component class="javax.swing.JButton" name="btnEnviarequipo">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagenes/caja-de-herramientas.png"/>
