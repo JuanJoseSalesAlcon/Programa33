@@ -45,9 +45,8 @@ public class entregarEquiposController implements ActionListener{
         {
             this.ModeloEntregar.AgregarEntrega(this.VistaEntregar.txtCodigoEquipo.getText(), 
                     this.VistaEntregar.txtNombrePersona.getText(), 
-                    this.VistaEntregar.txtDescripcionProblema.getText(),
-                    this.VistaEntregar.btnEntregarEquipos.getText(),
-                    this.VistaEntregar.txtFechaEntrega.getText());
+                    this.VistaEntregar.txtFechaEntrega.getText(),
+                    this.VistaEntregar.txtDescripcionProblema.getText());
             this.TablaEntregaEquipo.addRow(new Object[]{this.ModeloEntregar.ListarEntregas.get(0).getCodigoEquipo(),
             this.ModeloEntregar.ListarEntregas.get(0).getNombrePersona(),
             this.ModeloEntregar.ListarEntregas.get(0).getFechaEntrega(),

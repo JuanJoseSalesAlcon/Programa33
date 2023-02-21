@@ -44,7 +44,6 @@ public class enviarEquiposController implements ActionListener{
                 if(e.getSource()==this.VistaEnviar.btnEnviar)
         {
             this.ModeloEnviarEquipo.EnviarEquipo(this.VistaEnviar.txtCodigo.getText(), 
-                    this.VistaEnviar.txtCodigo.getText(), 
                     this.VistaEnviar.txtDescripcion.getText(),
                     this.VistaEnviar.txtTecnico.getText(),
                     this.VistaEnviar.txtFecha.getText());

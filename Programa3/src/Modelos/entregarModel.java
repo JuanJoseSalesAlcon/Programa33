@@ -16,8 +16,4 @@ public ArrayList ListarEntregas()
     return ListarEntregas;
 }
 
-    public void AgregarEntrega(String text, String text0, String text1, String text2, String text3) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
 }

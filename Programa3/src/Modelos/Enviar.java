@@ -5,14 +5,11 @@ public class Enviar {
     String tecnico;
     String fecha;
 
-    public Enviar(String codigo, String descripcion, String tecnico) {
+    public Enviar(String codigo, String descripcion, String tecnico, String fecha) {
         this.codigo = codigo;
         this.descripcion = descripcion;
         this.tecnico = tecnico;
-    }
-
-    Enviar(String codigo, String descripcion, String tecnico, String fecha) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        this.fecha = fecha;
     }
 
     public String getCodigo() {
@@ -38,12 +35,12 @@ public class Enviar {
     public void setTecnico(String tecnico) {
         this.tecnico = tecnico;
     }
-     public String getFecha() {
+
+    public String getFecha() {
         return fecha;
     }
 
     public void setFecha(String fecha) {
         this.fecha = fecha;
-    } 
-
+    }
 }
